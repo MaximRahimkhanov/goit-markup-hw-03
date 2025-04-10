@@ -1,17 +1,74 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+    
+}
 ul,
 ol {
     list-style: none;
 }
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 a {
     text-decoration: none;
 }
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+    
 body{
     color: #434455;
     font-family: "Roboto",
         sans-serif;
         background-color: #FFFFFF;
 
+}
+
+/*header*/
+.page-header{
+border-bottom: 1px solid var(--cornflower);
+}
+
+.header-container{
+display: flex;
+align-items: center;
+}
+.navi{
+    display: flex;
+    align-items: center;
+}
+.navi-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.adress-ul{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 24px 0;
+    margin-right: 76px;
 }
 .logo-text{
     font-family: "Raleway", sans-serif;
@@ -31,12 +88,16 @@ body{
 
 }
 .link{
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     }
 .link-address{
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -55,6 +116,7 @@ body{
     color: #404bbf
 }
 .address{
+    margin-left: auto;
     color: #434455;
 }
 
@@ -83,11 +145,23 @@ body{
 .tel:focus {
     color: #404bbf;
 }
-   
+ /*section1 */ 
+ .content-section-one{
+    display: flex;
+    flex-direction: column;
+    column-gap: 48px;
+ }
 .section-one{
     background-color: #2e2f42;
 }
 .section-h-one{
+    width: 496px;
+    height: 120px;
+    padding-top: 188px;
+   
+
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -100,6 +174,10 @@ button{
     cursor: pointer;
 }
 .button{
+    padding-bottom: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
@@ -112,6 +190,20 @@ button{
 }
 .button:focus{
     background-color: #404BBF;
+}
+
+/*section2*/
+.cont-section-two{
+    display: inline-flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    width: calc(100%-74)\4;
+}
+
+.list-gap{
+    display: block;
+    
+    gap: 8px;
 }
 .section-h-three{
     font-weight: 500;
@@ -131,6 +223,8 @@ button{
     background-color: #F4F4FD;
 }
 .section-h-two{
+    padding-top: 120px;
+    padding-bottom: 72px;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
@@ -139,8 +233,35 @@ button{
     color: #2e2f42;
     text-align: center;
 }
+.ul-ourteam{
+    display: flex;
+    gap: 24px;
+}
+.div-section{
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    column-gap: 8px;
+}
 .section-three-li{
+    border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px 0px;
+        width: 264px;
+        height: 380px;
     background-color: #FFFFFF;
+}
+.div-portfol{
+
+}
+.ul-portfolio{
+    width: 1128px;
+        height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-bottom: 72px;
+    gap: 24px;
 }
 .section-four-title{
     font-size: 36px;
@@ -152,13 +273,15 @@ button{
 }
 
 .footer{
+    padding-top: 100px;
+    padding-bottom:  100px;
     background-color: #2e2f42;
 }
 :root {
     --footer-text-color: #F4F4FD;
 }
 
-.paragraf-footer {
+.paragraf-footer {width: 264px;
     line-height: 1.5;
     color: var(--footer-text-color);
     letter-spacing: 0.02em;
