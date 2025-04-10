@@ -282,7 +282,9 @@ button{
 .ul-portfolio{
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
     margin-right: 24px;
+    row-gap: 48px;
     margin-bottom: 48px;
     
     
@@ -324,4 +326,7 @@ button{
 }
 .li-third{
     margin-right: 0;
+}
+.li-four{
+    width: calc((100% - 48px) / 3);
 }
