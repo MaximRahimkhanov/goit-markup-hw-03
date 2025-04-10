@@ -318,15 +318,23 @@ button{
     display: inline-block;
     margin-bottom: 16px;
 }
-.visually-hidden{
-    padding: 0;
+/* ========== Visually Hidden ========== */
 
-}
-.li-last{
-    margin-bottom: 0;}
-.li-third{
-    margin-right: 0;
-    }
+    .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            white-space: nowrap;
+            clip-path: inset(100%);
+        }
+
+
+
 .li-four {
     
     width: calc((100% - 48px) / 3);
