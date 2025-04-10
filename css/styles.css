@@ -319,6 +319,7 @@ button{
     margin-bottom: 16px;
 }
 .visually-hidden{
+    padding: 0;
 
 }
 .li-last{
