@@ -257,11 +257,9 @@ button{
     gap: 24px;
 }
 .div-section{
+    
     padding: 32px 0;
-    padding-top: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 32px;
+    
     column-gap: 8px;
 }
 .section-three-li{
@@ -282,7 +280,6 @@ button{
 
 }
 .ul-portfolio{
-    row-gap: 48px;
     margin-bottom: 48px;
     width: 1128px;
         height: 1000px;
@@ -319,4 +316,10 @@ button{
 .logo-footer{
     display: inline-block;
     margin-bottom: 16px;
+}
+.visually-hidden{
+
+}
+.li-last{
+    margin-bottom: 0
 }
