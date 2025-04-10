@@ -323,11 +323,11 @@ button{
 
 }
 .li-last{
-    margin-bottom: 0;
-}
+    margin-bottom: 0;}
 .li-third{
     margin-right: 0;
-}
-.li-four{
+    }
+.li-four {
+    
     width: calc((100% - 48px) / 3);
 }
