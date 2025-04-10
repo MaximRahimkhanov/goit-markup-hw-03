@@ -280,14 +280,13 @@ button{
 
 }
 .ul-portfolio{
-    margin-bottom: 48px;
-    width: 1128px;
-        height: 1000px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 120px;
-    padding-bottom: 72px;
-    gap: 24px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    
+    
+   
 }
 .section-four-title{
     margin-bottom: 72px;
@@ -321,5 +320,8 @@ button{
 
 }
 .li-last{
-    margin-bottom: 0
+    margin-bottom: 0;
+}
+.li-third{
+    margin-right: 0;
 }
