@@ -226,6 +226,7 @@ button{
     color: #434455;
 
 }
+/* section 3 */
 .section-three{
     padding: 120px 0;
     background-color: #F4F4FD;
@@ -275,11 +276,9 @@ button{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
-    
-    
-   
-}
+    }
+
+    /* section4 */
 .section-four-title{
     margin-bottom: 72px;
     font-size: 36px;
